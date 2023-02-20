@@ -10,4 +10,8 @@
 body {
   font-size: 18px;
 }
+
+img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=index.css.map */
