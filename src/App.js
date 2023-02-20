@@ -16,6 +16,22 @@ function App() {
             <Twitter />
           </aside>
         </nav>
+        <main className="main-content">
+          <div className="introduction">
+            <section>
+              <h1>
+                Nice to meet you! I'm{" "}
+                <span className="stand-out">Samson Odiagbe</span>
+              </h1>
+            </section>
+            {/* image */}
+            <section></section>
+          </div>
+          <div className="skills-container"></div>
+          <div className="projects-container"></div>
+          <div className="contact-me"></div>
+          <footer></footer>
+        </main>
       </div>
     </div>
   );
