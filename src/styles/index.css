@@ -242,4 +242,79 @@ div.portfolio-app div.container div.contact-me section.form-container form div.b
 div.portfolio-app div.container footer.footer {
   background: #242424;
 }
+
+@media screen and (min-width: 760px) {
+  div.portfolio-app div.container nav.navigation,
+  div.portfolio-app div.container footer.footer {
+    position: relative;
+    padding: 1em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    z-index: 10;
+  }
+  div.portfolio-app div.container div.introduction {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "writeup img";
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.portfolio-app div.container div.introduction section {
+    padding: 1em 0;
+    text-align: center;
+  }
+  div.portfolio-app div.container div.introduction section.write-up {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: writeup;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+  }
+  div.portfolio-app div.container div.introduction section.write-up h1 {
+    margin-bottom: 1em;
+  }
+  div.portfolio-app div.container div.introduction section.write-up h1 span.stand-out {
+    padding: 0.2em 0;
+    border-bottom: 3px solid #3474fd;
+  }
+  div.portfolio-app div.container div.introduction section.image-container {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: img;
+    min-height: 612px;
+  }
+  div.portfolio-app div.container div.introduction section.image-container img {
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  div.portfolio-app div.container div.skills-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  div.portfolio-app div.container div.projects-container div.projects {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  div.portfolio-app div.container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,76 @@
+// tablets
+@media screen and (min-width: 760px) {
+  div.portfolio-app {
+    div.container {
+      nav.navigation,
+      footer.footer {
+        position: relative;
+        padding: 1em;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 10;
+      }
+
+      //   introduction
+      div.introduction {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "writeup img";
+        align-items: center;
+        section {
+          padding: $padding 0;
+          text-align: center;
+        }
+        section.write-up {
+          grid-area: writeup;
+          grid-row: 1 / 2;
+          h1 {
+            margin-bottom: 1em;
+            span.stand-out {
+              padding: 0.2em 0;
+              border-bottom: 3px solid $secondary-color;
+            }
+          }
+        }
+
+        section.image-container {
+          grid-area: img;
+          min-height: 612px;
+          img {
+            width: auto;
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+        }
+      }
+
+      //   skills container
+      div.skills-container {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      div.projects-container {
+        div.projects {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1em;
+        }
+      }
+    }
+  }
+}
+
+// desktop
+@media screen and (min-width: 1120px) {
+  div.portfolio-app {
+    div.container {
+      width: 1000px;
+      margin: 0 auto;
+      // navigation and footer
+      nav.navigation,
+      footer.footer {
+      }
+    }
+  }
+}
