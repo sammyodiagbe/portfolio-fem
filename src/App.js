@@ -140,11 +140,19 @@ function App() {
           </div>
           <footer className="footer">
             <b className="logo">SamsonOdiagbe</b>
-            <aside>
-              <Github />
-              <FrontendMentor />
-              <LinkedIn />
-              <Twitter />
+            <aside className="social-links">
+              <a href="#kkk">
+                <Github />
+              </a>
+              <a href="#ll">
+                <FrontendMentor />
+              </a>
+              <a href="#ud">
+                <LinkedIn />
+              </a>
+              <a href="#link">
+                <Twitter />
+              </a>
             </aside>
           </footer>
         </main>
