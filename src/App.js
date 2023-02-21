@@ -5,6 +5,9 @@ import Twitter from "./components/twitter";
 import image1 from "./assets/thumbnail-project-1-large.webp";
 import image2 from "./assets/thumbnail-project-2-large.webp";
 import image3 from "./assets/thumbnail-project-3-large.webp";
+import image4 from "./assets/thumbnail-project-4-large.webp";
+import image5 from "./assets/thumbnail-project-5-large.webp";
+import image6 from "./assets/thumbnail-project-6-large.webp";
 
 function App() {
   return (
@@ -104,6 +107,33 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image3} alt="First project" />
+                </div>
+                <div className="project-details">
+                  <h2>Design Portfolio</h2>
+                  <p>HTML CSS</p>
+                </div>
+              </div>
+              <div className="project">
+                <div className="img-container">
+                  <img src={image4} alt="First project" />
+                </div>
+                <div className="project-details">
+                  <h2>Design Portfolio</h2>
+                  <p>HTML CSS</p>
+                </div>
+              </div>
+              <div className="project">
+                <div className="img-container">
+                  <img src={image5} alt="First project" />
+                </div>
+                <div className="project-details">
+                  <h2>Design Portfolio</h2>
+                  <p>HTML CSS</p>
+                </div>
+              </div>
+              <div className="project">
+                <div className="img-container">
+                  <img src={image6} alt="First project" />
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
