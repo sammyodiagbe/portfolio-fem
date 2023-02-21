@@ -10,11 +10,19 @@ function App() {
       <div className="container">
         <nav className="navigation">
           <b className="logo">SamsonOdiagbe</b>
-          <aside>
-            <Github />
-            <FrontendMentor />
-            <LinkedIn />
-            <Twitter />
+          <aside className="social-links">
+            <a href="#kkk">
+              <Github />
+            </a>
+            <a href="#ll">
+              <FrontendMentor />
+            </a>
+            <a href="#ud">
+              <LinkedIn />
+            </a>
+            <a href="#link">
+              <Twitter />
+            </a>
           </aside>
         </nav>
         <main className="main-content">
@@ -35,35 +43,35 @@ function App() {
           <div className="skills-container">
             <div className="skill">
               <h1>HTML</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>CSS</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>Javascript</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>Accesibility</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>React</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>Sass</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>Nodejs</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
             <div className="skill">
               <h1>TypeScript</h1>
-              <b>4 years Experience</b>
+              <p>4 years Experience</p>
             </div>
           </div>
           <div className="projects-container">

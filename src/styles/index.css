@@ -12,9 +12,65 @@
 body {
   font-size: 18px;
   font-family: "Space Grotesk", sans-serif;
+  background: #151515;
+  color: #ffffff;
 }
 
 img {
   max-width: 100%;
+}
+
+div.portfolio-app div.container {
+  padding: 1em;
+}
+
+div.portfolio-app div.container nav.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.portfolio-app div.container nav.navigation b.logo {
+  margin-bottom: 0.3em;
+  font-size: 1.2em;
+}
+
+div.portfolio-app div.container nav.navigation aside.social-links a {
+  padding: 0 0.5em;
+}
+
+div.portfolio-app div.container div.skills-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 1em 0;
+}
+
+div.portfolio-app div.container div.skills-container div.skill {
+  text-align: center;
+  padding: 1em;
+}
+
+div.portfolio-app div.container div.skills-container div.skill h1,
+div.portfolio-app div.container div.skills-container div.skill p {
+  text-transform: uppercase;
+}
+
+div.portfolio-app div.container div.skills-container div.skill h1 {
+  font-weight: 550;
+}
+
+div.portfolio-app div.container div.skills-container div.skill p {
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=index.css.map */
