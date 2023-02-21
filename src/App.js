@@ -75,7 +75,7 @@ function App() {
             <div className="projects">
               <div className="project">
                 <div className="img-container">
-                  <img src={image1} alt="First project image" />
+                  <img src={image1} alt="First project" />
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>

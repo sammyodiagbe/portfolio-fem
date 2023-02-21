@@ -1,4 +1,11 @@
 // variables
+$background-color: #151515;
+$secondary-color: #4ee1a0;
+$light-dark: #242424;
+$grey: #d9d9d9;
+$white: #ffffff;
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
 
 * {
   padding: 0;
@@ -6,10 +13,12 @@
   box-sizing: border-box;
   outline: none;
   border: none;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 body {
   font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 img {
