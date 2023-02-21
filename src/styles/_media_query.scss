@@ -2,6 +2,7 @@
 @media screen and (min-width: 760px) {
   div.portfolio-app {
     div.container {
+      position: relative;
       nav.navigation,
       footer.footer {
         position: relative;
@@ -48,6 +49,10 @@
       //   skills container
       div.skills-container {
         grid-template-columns: 1fr 1fr;
+        justify-items: start;
+        div.skill {
+          text-align: left;
+        }
       }
 
       div.projects-container {
@@ -57,6 +62,12 @@
           gap: 1em;
         }
       }
+
+      div.contact-me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+      }
     }
   }
 }
@@ -65,11 +76,27 @@
 @media screen and (min-width: 1120px) {
   div.portfolio-app {
     div.container {
-      width: 1000px;
+      width: 900px;
       margin: 0 auto;
+
+      div.introduction {
+        section.write-up {
+          h1 {
+            font-size: 48px;
+          }
+        }
+      }
+
+      div.skills-container {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
       // navigation and footer
-      nav.navigation,
-      footer.footer {
+      div.projects-container {
+        div.projects {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1em;
+        }
       }
     }
   }
