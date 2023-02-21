@@ -42,7 +42,7 @@ function App() {
             </section>
             <section className="write-up">
               <h1>
-                Nice to meet you! I'm{" "}
+                Nice to meet you!, I'm{" "}
                 <span className="stand-out">Samson Odiagbe.</span>
               </h1>
               <p>
@@ -96,6 +96,10 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image1} alt="First project" />
+                  <div className="view">
+                    <a href="#view-website">View website</a>
+                    <a href="#view-code">View Code</a>
+                  </div>
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>

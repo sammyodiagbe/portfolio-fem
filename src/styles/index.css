@@ -91,7 +91,6 @@ div.portfolio-app div.container footer.footer aside.social-links a {
 
 div.portfolio-app div.container div.introduction section {
   padding: 1em 0;
-  text-align: center;
 }
 
 div.portfolio-app div.container div.introduction section.write-up h1 {
@@ -156,6 +155,23 @@ div.portfolio-app div.container div.projects-container div.project-container-hea
 
 div.portfolio-app div.container div.projects-container div.projects div.project {
   padding: 1em 0;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.img-container div.view {
+  position: absolute;
+  z-index: 15;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  padding: 1em;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.img-container div.view a {
+  font-size: 0.8em;
+  padding: 1em 0.6em;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a {
@@ -266,21 +282,20 @@ div.portfolio-app div.container footer.footer {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "writeup img";
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   div.portfolio-app div.container div.introduction section {
     padding: 1em 0;
-    text-align: center;
   }
   div.portfolio-app div.container div.introduction section.write-up {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: writeup;
+    width: 550px;
+    z-index: 10;
+    margin-top: 5em;
     -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
   }
   div.portfolio-app div.container div.introduction section.write-up h1 {
     margin-bottom: 1em;
@@ -316,6 +331,26 @@ div.portfolio-app div.container footer.footer {
         grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.img-container {
+    position: relative;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.img-container:hover div.view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.img-container div.view {
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.view {
+    display: block;
+  }
   div.portfolio-app div.container div.contact-me {
     display: -ms-grid;
     display: grid;
@@ -343,6 +378,26 @@ div.portfolio-app div.container footer.footer {
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.img-container {
+    position: relative;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.img-container:hover div.view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.img-container div.view {
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.portfolio-app div.container div.projects-container div.projects div.project div.view {
+    display: none;
   }
 }
 /*# sourceMappingURL=index.css.map */
