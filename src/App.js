@@ -84,8 +84,41 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="contact-me"></div>
-          <footer></footer>
+          <div className="contact-me">
+            <section>
+              <h1>Contact.</h1>
+              <p>
+                I would love to hear about your project and how I could help.
+                Please fill in the form, and I’ll get back to you as soon as
+                possible.
+              </p>
+            </section>
+            <section>
+              <form>
+                <div className="input-container">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div className="input-container">
+                  <input type="email" placeholder="Email" />
+                </div>
+                <div className="input-container">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div className="btn-container">
+                  <button className="btn-submit">Send Message</button>
+                </div>
+              </form>
+            </section>
+          </div>
+          <footer className="footer">
+            <b className="logo">SamsonOdiagbe</b>
+            <aside>
+              <Github />
+              <FrontendMentor />
+              <LinkedIn />
+              <Twitter />
+            </aside>
+          </footer>
         </main>
       </div>
     </div>
