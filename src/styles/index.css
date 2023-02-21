@@ -89,6 +89,19 @@ div.portfolio-app div.container footer.footer aside.social-links a {
   padding: 0 0.5em;
 }
 
+div.portfolio-app div.container div.introduction section {
+  padding: 1em 0;
+  text-align: center;
+}
+
+div.portfolio-app div.container div.introduction section.write-up h1 {
+  margin-bottom: 1em;
+}
+
+div.portfolio-app div.container div.introduction section.image-container img {
+  width: 150px;
+}
+
 div.portfolio-app div.container div.skills-container {
   display: -ms-grid;
   display: grid;

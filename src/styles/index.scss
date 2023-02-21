@@ -84,6 +84,24 @@ div.portfolio-app {
       }
     }
 
+    div.introduction {
+      section {
+        padding: $padding 0;
+        text-align: center;
+      }
+      section.write-up {
+        h1 {
+          margin-bottom: 1em;
+        }
+      }
+
+      section.image-container {
+        img {
+          width: 150px;
+        }
+      }
+    }
+
     // skills container
     div.skills-container {
       display: grid;

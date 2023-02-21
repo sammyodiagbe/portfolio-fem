@@ -33,14 +33,14 @@ function App() {
         </nav>
         <main className="main-content">
           <div className="introduction">
-            <section>
+            <section className="image-container">
               <img
                 src={myPicture}
                 alt="Samson odiagbe Osaro"
                 className="my-picture"
               />
             </section>
-            <section>
+            <section className="write-up">
               <h1>
                 Nice to meet you! I'm{" "}
                 <span className="stand-out">Samson Odiagbe</span>
