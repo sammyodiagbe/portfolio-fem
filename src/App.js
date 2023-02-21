@@ -114,6 +114,10 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image2} alt="First project" />
+                  <div className="view">
+                    <a href="#view-website">View website</a>
+                    <a href="#view-code">View Code</a>
+                  </div>
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
@@ -127,6 +131,10 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image3} alt="First project" />
+                  <div className="view">
+                    <a href="#view-website">View website</a>
+                    <a href="#view-code">View Code</a>
+                  </div>
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
@@ -140,6 +148,10 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image4} alt="First project" />
+                  <div className="view">
+                    <a href="#view-website">View website</a>
+                    <a href="#view-code">View Code</a>
+                  </div>
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
@@ -153,6 +165,10 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image5} alt="First project" />
+                  <div className="view">
+                    <a href="#view-website">View website</a>
+                    <a href="#view-code">View Code</a>
+                  </div>
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
@@ -166,6 +182,10 @@ function App() {
               <div className="project">
                 <div className="img-container">
                   <img src={image6} alt="First project" />
+                  <div className="view">
+                    <a href="#view-website">View website</a>
+                    <a href="#view-code">View Code</a>
+                  </div>
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
