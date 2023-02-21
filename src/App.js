@@ -8,6 +8,7 @@ import image3 from "./assets/thumbnail-project-3-large.webp";
 import image4 from "./assets/thumbnail-project-4-large.webp";
 import image5 from "./assets/thumbnail-project-5-large.webp";
 import image6 from "./assets/thumbnail-project-6-large.webp";
+import myPicture from "./assets/samson.svg";
 
 function App() {
   return (
@@ -33,6 +34,13 @@ function App() {
         <main className="main-content">
           <div className="introduction">
             <section>
+              <img
+                src={myPicture}
+                alt="Samson odiagbe Osaro"
+                className="my-picture"
+              />
+            </section>
+            <section>
               <h1>
                 Nice to meet you! I'm{" "}
                 <span className="stand-out">Samson Odiagbe</span>
@@ -43,7 +51,6 @@ function App() {
               </p>
             </section>
             {/* image */}
-            <section></section>
           </div>
           <div className="skills-container">
             <div className="skill">
