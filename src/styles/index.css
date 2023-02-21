@@ -16,6 +16,11 @@ body {
   color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 img {
   max-width: 100%;
 }
@@ -24,7 +29,8 @@ div.portfolio-app div.container {
   padding: 1em;
 }
 
-div.portfolio-app div.container nav.navigation {
+div.portfolio-app div.container nav.navigation,
+div.portfolio-app div.container footer.footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,12 +44,14 @@ div.portfolio-app div.container nav.navigation {
           align-items: center;
 }
 
-div.portfolio-app div.container nav.navigation b.logo {
+div.portfolio-app div.container nav.navigation b.logo,
+div.portfolio-app div.container footer.footer b.logo {
   margin-bottom: 0.3em;
   font-size: 1.2em;
 }
 
-div.portfolio-app div.container nav.navigation aside.social-links a {
+div.portfolio-app div.container nav.navigation aside.social-links a,
+div.portfolio-app div.container footer.footer aside.social-links a {
   padding: 0 0.5em;
 }
 
@@ -72,5 +80,38 @@ div.portfolio-app div.container div.skills-container div.skill h1 {
 
 div.portfolio-app div.container div.skills-container div.skill p {
   font-size: 0.8em;
+}
+
+div.portfolio-app div.container div.projects-container div.project-container-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.portfolio-app div.container div.projects-container div.project-container-head a {
+  padding: 0.7em 1em;
+  display: inline-block;
+  border-bottom: 2px solid #4ee1a0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.project-details {
+  padding: 1em 0;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.project-details h2 {
+  margin-bottom: 0.2em;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.project-details b {
+  font-size: 0.7em;
 }
 /*# sourceMappingURL=index.css.map */

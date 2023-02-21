@@ -3,6 +3,8 @@ import Github from "./components/github";
 import LinkedIn from "./components/LinkedIn";
 import Twitter from "./components/twitter";
 import image1 from "./assets/thumbnail-project-1-large.webp";
+import image2 from "./assets/thumbnail-project-2-large.webp";
+import image3 from "./assets/thumbnail-project-3-large.webp";
 
 function App() {
   return (
@@ -87,7 +89,25 @@ function App() {
                 </div>
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
-                  <b>HTML CSS</b>
+                  <p>HTML CSS</p>
+                </div>
+              </div>
+              <div className="project">
+                <div className="img-container">
+                  <img src={image2} alt="First project" />
+                </div>
+                <div className="project-details">
+                  <h2>Design Portfolio</h2>
+                  <p>HTML CSS</p>
+                </div>
+              </div>
+              <div className="project">
+                <div className="img-container">
+                  <img src={image3} alt="First project" />
+                </div>
+                <div className="project-details">
+                  <h2>Design Portfolio</h2>
+                  <p>HTML CSS</p>
                 </div>
               </div>
             </div>
