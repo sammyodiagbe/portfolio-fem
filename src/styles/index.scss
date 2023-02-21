@@ -144,6 +144,15 @@ div.portfolio-app {
 
       div.projects {
         div.project {
+          padding: $padding 0;
+          div.view {
+            a {
+              @include linkBtn();
+              &:nth-child(1) {
+                margin-right: 1em;
+              }
+            }
+          }
           div.project-details {
             padding: $padding 0;
             h2 {

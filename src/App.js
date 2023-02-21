@@ -101,6 +101,10 @@ function App() {
                   <h2>Design Portfolio</h2>
                   <p>HTML CSS</p>
                 </div>
+                <div className="view">
+                  <a href="#view-website">View website</a>
+                  <a href="#view-code">View Code</a>
+                </div>
               </div>
               <div className="project">
                 <div className="img-container">
@@ -109,6 +113,10 @@ function App() {
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
                   <p>HTML CSS</p>
+                </div>
+                <div className="view">
+                  <a href="#view-website">View website</a>
+                  <a href="#view-code">View Code</a>
                 </div>
               </div>
               <div className="project">
@@ -119,6 +127,10 @@ function App() {
                   <h2>Design Portfolio</h2>
                   <p>HTML CSS</p>
                 </div>
+                <div className="view">
+                  <a href="#view-website">View website</a>
+                  <a href="#view-code">View Code</a>
+                </div>
               </div>
               <div className="project">
                 <div className="img-container">
@@ -127,6 +139,10 @@ function App() {
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
                   <p>HTML CSS</p>
+                </div>
+                <div className="view">
+                  <a href="#view-website">View website</a>
+                  <a href="#view-code">View Code</a>
                 </div>
               </div>
               <div className="project">
@@ -137,6 +153,10 @@ function App() {
                   <h2>Design Portfolio</h2>
                   <p>HTML CSS</p>
                 </div>
+                <div className="view">
+                  <a href="#view-website">View website</a>
+                  <a href="#view-code">View Code</a>
+                </div>
               </div>
               <div className="project">
                 <div className="img-container">
@@ -145,6 +165,10 @@ function App() {
                 <div className="project-details">
                   <h2>Design Portfolio</h2>
                   <p>HTML CSS</p>
+                </div>
+                <div className="view">
+                  <a href="#view-website">View website</a>
+                  <a href="#view-code">View Code</a>
                 </div>
               </div>
             </div>
