@@ -49,6 +49,7 @@ function App() {
                 Based in Canada, I’m a full-stack developer passionate about
                 building accessible web apps and mobile apps that users love.
               </p>
+              <a href="#contact-me">Contact me</a>
             </section>
             {/* image */}
           </div>
@@ -90,7 +91,7 @@ function App() {
             <div className="project-container-head">
               <h1>Projects</h1>
 
-              <a href="../kskk">Contact me</a>
+              <a href="#contact-me">Contact me</a>
             </div>
             <div className="projects">
               <div className="project">
@@ -177,7 +178,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="contact-me">
+          <div className="contact-me" id="contact-me">
             <section className="writeup-container">
               <h1>Contact.</h1>
               <p>

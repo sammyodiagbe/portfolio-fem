@@ -14,6 +14,10 @@ $padding: 1em;
   border-bottom: 2px solid $secondary-color;
   text-transform: uppercase;
   font-size: 0.9em;
+
+  &:hover {
+    color: $secondary-color;
+  }
 }
 * {
   padding: 0;
@@ -24,11 +28,13 @@ $padding: 1em;
   font-family: "Space Grotesk", sans-serif;
 }
 
-body {
+body,
+html {
   font-size: 18px;
   font-family: "Space Grotesk", sans-serif;
   background: $background-color;
   color: $white;
+  scroll-behavior: smooth;
 }
 
 input,
@@ -95,6 +101,14 @@ div.portfolio-app {
             padding: 0.2em 0;
             border-bottom: 3px solid $secondary-color;
           }
+        }
+        p {
+          margin-bottom: 1.5em;
+        }
+
+        a {
+          @include linkBtn();
+          padding: 1em 1.8em;
         }
       }
 
