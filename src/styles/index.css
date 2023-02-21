@@ -98,6 +98,11 @@ div.portfolio-app div.container div.introduction section.write-up h1 {
   margin-bottom: 1em;
 }
 
+div.portfolio-app div.container div.introduction section.write-up h1 span.stand-out {
+  padding: 0.2em 0;
+  border-bottom: 3px solid #3474fd;
+}
+
 div.portfolio-app div.container div.introduction section.image-container img {
   width: 150px;
 }
@@ -144,7 +149,7 @@ div.portfolio-app div.container div.projects-container div.project-container-hea
 div.portfolio-app div.container div.projects-container div.project-container-head a {
   padding: 0.7em 1em;
   display: inline-block;
-  border-bottom: 2px solid #4ee1a0;
+  border-bottom: 2px solid #3474fd;
   text-transform: uppercase;
   font-size: 0.9em;
 }
@@ -196,7 +201,7 @@ div.portfolio-app div.container div.contact-me section.form-container form div.i
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:active, div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:focus,
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:active,
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:focus {
-  border-bottom: 2px solid #4ee1a0;
+  border-bottom: 2px solid #3474fd;
 }
 
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:invalid,
@@ -211,7 +216,7 @@ div.portfolio-app div.container div.contact-me section.form-container form div.b
 div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit {
   display: inline-block;
   text-transform: uppercase;
-  border-bottom: 1px solid #4ee1a0;
+  border-bottom: 1px solid #3474fd;
   background: transparent;
   padding: 1em;
   font-size: 0.9em;

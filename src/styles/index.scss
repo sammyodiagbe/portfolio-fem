@@ -1,6 +1,6 @@
 // variables
 $background-color: #151515;
-$secondary-color: #4ee1a0;
+$secondary-color: #3474fd;
 $light-dark: #242424;
 $grey: #d9d9d9;
 $white: #ffffff;
@@ -92,6 +92,10 @@ div.portfolio-app {
       section.write-up {
         h1 {
           margin-bottom: 1em;
+          span.stand-out {
+            padding: 0.2em 0;
+            border-bottom: 3px solid $secondary-color;
+          }
         }
       }
 
