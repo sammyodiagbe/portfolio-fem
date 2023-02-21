@@ -31,6 +31,19 @@ body {
   color: $white;
 }
 
+input,
+textarea {
+  background-color: transparent;
+  font-size: 1em;
+  padding: $padding;
+  border: none;
+  border-bottom: 2px solid $grey;
+  border-radius: 0px;
+  &::placeholder {
+    text-transform: uppercase;
+  }
+}
+
 a {
   text-decoration: none;
   color: $white;
@@ -42,10 +55,16 @@ img {
 
 div.portfolio-app {
   div.container {
-    padding: $padding;
+    // padding: $padding;
 
     // navigation {
-
+    nav.navigation,
+    div.introduction,
+    div.contact-me,
+    div.projects-container,
+    div.skills-container {
+      padding: $padding;
+    }
     nav.navigation,
     footer.footer {
       display: flex;
@@ -70,7 +89,6 @@ div.portfolio-app {
       display: grid;
       grid-template-columns: 1fr;
       justify-items: center;
-      padding: $padding 0;
       div.skill {
         text-align: center;
         padding: $padding;
@@ -115,6 +133,66 @@ div.portfolio-app {
           }
         }
       }
+    }
+
+    // div.contact me
+    div.contact-me {
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: $light-dark;
+      section {
+        padding: $padding 0;
+        &.writeup-container {
+          text-align: center;
+          h1 {
+            margin-bottom: 1.5em;
+          }
+
+          p {
+          }
+        }
+
+        &.form-container {
+          form {
+            div.input-container,
+            div.btn-container {
+              margin-bottom: 1em;
+            }
+            div.input-container {
+              input,
+              textarea {
+                width: 100%;
+                resize: none;
+                color: $white;
+                &:active,
+                &:focus {
+                  border-bottom: 2px solid $secondary-color;
+                }
+
+                &:invalid {
+                  border-bottom: 2px solid tomato;
+                }
+              }
+            }
+
+            div.btn-container {
+              text-align: right;
+              button.btn-submit {
+                display: inline-block;
+                text-transform: uppercase;
+                border-bottom: 1px solid $secondary-color;
+                background: transparent;
+                padding: $padding;
+                font-size: 0.9em;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+    footer.footer {
+      background: $light-dark;
     }
   }
 }

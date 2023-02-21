@@ -113,7 +113,7 @@ function App() {
             </div>
           </div>
           <div className="contact-me">
-            <section>
+            <section className="writeup-container">
               <h1>Contact.</h1>
               <p>
                 I would love to hear about your project and how I could help.
@@ -121,7 +121,7 @@ function App() {
                 possible.
               </p>
             </section>
-            <section>
+            <section className="form-container">
               <form>
                 <div className="input-container">
                   <input type="text" placeholder="Name" />

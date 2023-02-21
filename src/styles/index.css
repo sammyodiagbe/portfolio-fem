@@ -16,6 +16,36 @@ body {
   color: #ffffff;
 }
 
+input,
+textarea {
+  background-color: transparent;
+  font-size: 1em;
+  padding: 1em;
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  border-radius: 0px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+input::placeholder,
+textarea::placeholder {
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -25,7 +55,11 @@ img {
   max-width: 100%;
 }
 
-div.portfolio-app div.container {
+div.portfolio-app div.container nav.navigation,
+div.portfolio-app div.container div.introduction,
+div.portfolio-app div.container div.contact-me,
+div.portfolio-app div.container div.projects-container,
+div.portfolio-app div.container div.skills-container {
   padding: 1em;
 }
 
@@ -61,7 +95,6 @@ div.portfolio-app div.container div.skills-container {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   justify-items: center;
-  padding: 1em 0;
 }
 
 div.portfolio-app div.container div.skills-container div.skill {
@@ -113,5 +146,66 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.project-details b {
   font-size: 0.7em;
+}
+
+div.portfolio-app div.container div.contact-me {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  background-color: #242424;
+}
+
+div.portfolio-app div.container div.contact-me section {
+  padding: 1em 0;
+}
+
+div.portfolio-app div.container div.contact-me section.writeup-container {
+  text-align: center;
+}
+
+div.portfolio-app div.container div.contact-me section.writeup-container h1 {
+  margin-bottom: 1.5em;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container,
+div.portfolio-app div.container div.contact-me section.form-container form div.btn-container {
+  margin-bottom: 1em;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container input,
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea {
+  width: 100%;
+  resize: none;
+  color: #ffffff;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:active, div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:focus,
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:active,
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:focus {
+  border-bottom: 2px solid #4ee1a0;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:invalid,
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:invalid {
+  border-bottom: 2px solid tomato;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.btn-container {
+  text-align: right;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit {
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 1px solid #4ee1a0;
+  background: transparent;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+div.portfolio-app div.container footer.footer {
+  background: #242424;
 }
 /*# sourceMappingURL=index.css.map */
