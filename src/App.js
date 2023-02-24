@@ -56,11 +56,11 @@ function App() {
           <div className="skills-container">
             <div className="skill">
               <h1>HTML</h1>
-              <p>4 years Experience</p>
+              <p>5 years Experience</p>
             </div>
             <div className="skill">
               <h1>CSS</h1>
-              <p>4 years Experience</p>
+              <p>5 years Experience</p>
             </div>
             <div className="skill">
               <h1>Javascript</h1>
@@ -68,23 +68,23 @@ function App() {
             </div>
             <div className="skill">
               <h1>Accesibility</h1>
-              <p>4 years Experience</p>
+              <p>1 years Experience</p>
             </div>
             <div className="skill">
               <h1>React</h1>
-              <p>4 years Experience</p>
+              <p>3 years Experience</p>
             </div>
             <div className="skill">
               <h1>Sass</h1>
-              <p>4 years Experience</p>
+              <p>2 years Experience</p>
             </div>
             <div className="skill">
               <h1>Nodejs</h1>
-              <p>4 years Experience</p>
+              <p>2 years Experience</p>
             </div>
             <div className="skill">
               <h1>TypeScript</h1>
-              <p>4 years Experience</p>
+              <p>1 years Experience</p>
             </div>
           </div>
           <div className="projects-container">
