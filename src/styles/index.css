@@ -13,8 +13,8 @@ body,
 html {
   font-size: 18px;
   font-family: "Space Grotesk", sans-serif;
-  background: #eee;
-  color: #151515;
+  background: #151515;
+  color: #ffffff;
   scroll-behavior: smooth;
 }
 
