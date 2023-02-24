@@ -43,7 +43,7 @@ function App() {
             <section className="write-up">
               <h1>
                 Nice to meet you!, I'm{" "}
-                <span className="stand-out">Samson Odiagbe.</span>
+                <span className="stand-out">Samson Odiagbe😎.</span>
               </h1>
               <p>
                 Based in Canada, I’m a full-stack developer passionate about
