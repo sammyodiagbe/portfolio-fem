@@ -137,8 +137,8 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Design Portfolio</h2>
-                  <p>HTML CSS</p>
+                  <h2>Dev Jobs</h2>
+                  <p>React Sass</p>
                 </div>
                 <div className="view">
                   <a href="#view-website">View website</a>
@@ -171,8 +171,8 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Design Portfolio</h2>
-                  <p>HTML CSS</p>
+                  <h2>Tic Tac Toe</h2>
+                  <p>React Sass</p>
                 </div>
                 <div className="view">
                   <a href="#view-website">View website</a>
