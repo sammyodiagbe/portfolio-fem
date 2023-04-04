@@ -139,8 +139,12 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://skilled-elearning-landng-page.vercel.app/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/skilled-elearning-landng-page">
+                    View Code
+                  </a>
                 </div>
               </div>
               <div className="project">
