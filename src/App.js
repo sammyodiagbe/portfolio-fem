@@ -6,8 +6,8 @@ import image1 from "./assets/thumbnail-project-1-large.webp";
 import image2 from "./assets/thumbnail-project-2-large.webp";
 import image3 from "./assets/thumbnail-project-3-large.webp";
 import image4 from "./assets/thumbnail-project-4-large.webp";
-import image5 from "./assets/thumbnail-project-5-large.webp";
-import image6 from "./assets/thumbnail-project-6-large.webp";
+import image5 from "./assets/tic-tac-toe.webp";
+import image6 from "./assets/news-homepage.webp";
 import myPicture from "./assets/samson.svg";
 import img9 from "./assets/img9.webp";
 import img10 from "./assets/img10.webp";
@@ -173,12 +173,16 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Design Portfolio</h2>
-                  <p>HTML CSS</p>
+                  <h2>Entertainment Web App</h2>
+                  <p>HTML CSS JAVASCRIPT</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://entertainment-web-app-rho.vercel.app/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/entertainment_web_app">
+                    View Code
+                  </a>
                 </div>
               </div>
               <div className="project">
@@ -194,8 +198,12 @@ function App() {
                   <p>React Sass</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://vercel.com/sammyodiagbe/tic-tac-toe/4eB6QahoJbfiPmtY6uytMdtQ1djL">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/tic-tac-toe">
+                    View Code
+                  </a>
                 </div>
               </div>
               <div className="project">
@@ -207,12 +215,16 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Design Portfolio</h2>
+                  <h2>News HomePage</h2>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://news-homepage-teal-tau.vercel.app/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/news-homepage">
+                    View Code
+                  </a>
                 </div>
               </div>
 
