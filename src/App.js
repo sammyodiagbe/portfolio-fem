@@ -109,12 +109,16 @@ function App() {
                 <div className="img-container">
                   <img src={image1} alt="First project" />
                   <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
+                    <a href="https://single-page-design-portfolio-one.vercel.app/">
+                      View website
+                    </a>
+                    <a href="https://github.com/sammyodiagbe/single-page-design-portfolio">
+                      View Code
+                    </a>
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Design Portfolio</h2>
+                  <h2>Single Page Design Portfolio</h2>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -131,7 +135,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Design Portfolio</h2>
+                  <h2>Skilled E-Learning Landing page</h2>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
