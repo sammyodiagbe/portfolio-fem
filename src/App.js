@@ -706,6 +706,7 @@ function App() {
                   <input
                     type="text"
                     placeholder="Your name here.."
+                    style={`${errors.name ? "input-error" : ""}`}
                     value={name}
                     onChange={({ target }) => setName(target.value)}
                   />
@@ -714,6 +715,7 @@ function App() {
                   <input
                     type="email"
                     placeholder="Your email here"
+                    style={`${errors.email ? "input-error" : ""}`}
                     value={email}
                     onChange={({ target }) => setEmail(target.value)}
                   />
@@ -722,11 +724,19 @@ function App() {
                   <textarea
                     placeholder="Your message here"
                     value={message}
+                    style={`${errors.message ? "input-error" : ""}`}
                     onChange={({ target }) => setMessage(target.value)}
                   ></textarea>
                 </div>
                 <div className="btn-container">
-                  <button className="btn-submit">Send Message</button>
+                  <button
+                    className={`btn-submit ${
+                      sendingMessage ? "sending-message" : ""
+                    } ${messageSent ? "message-sent" : ""}`}
+                    disabled={sendingMessage || messageSent}
+                  >
+                    Send Message
+                  </button>
                 </div>
               </form>
             </section>
