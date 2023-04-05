@@ -18,7 +18,8 @@ $call-to-action-hover: #0037b8;
   background: $call-to-action;
   border-radius: 10px;
   &:hover {
-    color: $call-to-action-hover;
+    color: $white;
+    background: $call-to-action-hover;
   }
 }
 * {

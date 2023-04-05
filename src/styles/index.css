@@ -101,7 +101,8 @@ div.portfolio-app div.container div.introduction section.write-up a {
 }
 
 div.portfolio-app div.container div.introduction section.write-up a:hover {
-  color: #0037b8;
+  color: #ffffff;
+  background: #0037b8;
 }
 
 div.portfolio-app div.container div.introduction section.image-container img {
@@ -156,7 +157,8 @@ div.portfolio-app div.container div.projects-container div.project-container-hea
 }
 
 div.portfolio-app div.container div.projects-container div.project-container-head a:hover {
-  color: #0037b8;
+  color: #ffffff;
+  background: #0037b8;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project {
@@ -199,7 +201,8 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a:hover {
-  color: #0037b8;
+  color: #ffffff;
+  background: #0037b8;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a:hover {
