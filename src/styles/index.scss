@@ -6,7 +6,7 @@ $grey: #d9d9d9;
 $white: #ffffff;
 $padding: 1em;
 
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
 
 @mixin linkBtn {
   padding: 0.7em $padding;
@@ -25,13 +25,13 @@ $padding: 1em;
   box-sizing: border-box;
   outline: none;
   border: none;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 body,
 html {
   font-size: 18px;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   background: $background-color;
   color: $white;
   scroll-behavior: smooth;
@@ -187,8 +187,13 @@ div.portfolio-app {
           }
           div.project-details {
             padding: $padding 0;
-            h2 {
-              margin-bottom: 0.2em;
+            h3 {
+              margin-bottom: 10px;
+              font-size: 18px;
+            }
+
+            p {
+              font-size: 16px;
             }
             b {
               font-size: 0.7em;
