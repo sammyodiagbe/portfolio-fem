@@ -73,6 +73,10 @@ div.portfolio-app div.container div.introduction section {
   padding: 1em 0;
 }
 
+div.portfolio-app div.container div.introduction section.write-up {
+  text-align: center;
+}
+
 div.portfolio-app div.container div.introduction section.write-up h1 {
   margin-bottom: 1em;
 }
@@ -106,8 +110,8 @@ div.portfolio-app div.container div.introduction section.image-container img {
 div.portfolio-app div.container div.skills-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   justify-items: center;
 }
 
