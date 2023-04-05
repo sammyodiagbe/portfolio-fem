@@ -17,8 +17,8 @@ import img13 from "./assets/brainbook.webp";
 import img14 from "./assets/img14.webp";
 import img15 from "./assets/img16.webp";
 import img16 from "./assets/img17.webp";
-import img17 from "./assets/img18.webp";
-import img18 from "./assets/img15.webp";
+import img17 from "./assets/img15.webp";
+import img18 from "./assets/order-summary.webp";
 import img19 from "./assets/img19.webp";
 
 function App() {
@@ -182,19 +182,23 @@ function App() {
               </div>
               <div className="project">
                 <div className="img-container">
-                  <img src={image3} alt="First project" />
+                  <img src={img15} alt="First project" />
                   <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
+                    <a href="https://feedbakiie.vercel.app/">View website</a>
+                    <a href="https://github.com/sammyodiagbe/product_feedback_app">
+                      View Code
+                    </a>
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Dev Jobs</h2>
-                  <p>React Sass</p>
+                  <h2>Feedback App</h2>
+                  <p>React Sass Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://feedbakiie.vercel.app/">View website</a>
+                  <a href="https://github.com/sammyodiagbe/product_feedback_app">
+                    View Code
+                  </a>
                 </div>
               </div>
               <div className="project">
@@ -272,7 +276,27 @@ function App() {
                   </a>
                 </div>
               </div>
-
+              <div className="project">
+                <div className="img-container">
+                  <img src={img13} alt="First project" />
+                  <div className="view">
+                    <a href="https://brainbook.vercel.app/">View website</a>
+                    <a href="https://github.com/sammyodiagbe/brainbook">
+                      View Code
+                    </a>
+                  </div>
+                </div>
+                <div className="project-details">
+                  <h2>Brainbook (Dictionary app)</h2>
+                  <p>HTML CSS Javascript</p>
+                </div>
+                <div className="view">
+                  <a href="https://brainbook.vercel.app/">View website</a>
+                  <a href="https://github.com/sammyodiagbe/brainbook">
+                    View Code
+                  </a>
+                </div>
+              </div>
               <div className="project">
                 <div className="img-container">
                   <img src={img9} alt="First project" />
@@ -300,40 +324,6 @@ function App() {
               </div>
               <div className="project">
                 <div className="img-container">
-                  <img src={img10} alt="First project" />
-                  <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
-                  </div>
-                </div>
-                <div className="project-details">
-                  <h2>Interactive Price Component</h2>
-                  <p>HTML CSS</p>
-                </div>
-                <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
-                </div>
-              </div>
-              <div className="project">
-                <div className="img-container">
-                  <img src={img11} alt="First project" />
-                  <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
-                  </div>
-                </div>
-                <div className="project-details">
-                  <h2>Tip Calculator</h2>
-                  <p>HTML CSS Javascript</p>
-                </div>
-                <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
-                </div>
-              </div>
-              <div className="project">
-                <div className="img-container">
                   <img src={img12} alt="First project" />
                   <div className="view">
                     <a href="https://sammyodiagbe.github.io/responsive-bookmark/">
@@ -357,69 +347,17 @@ function App() {
                   </a>
                 </div>
               </div>
-              <div className="project">
-                <div className="img-container">
-                  <img src={img13} alt="First project" />
-                  <div className="view">
-                    <a href="https://brainbook.vercel.app/">View website</a>
-                    <a href="https://github.com/sammyodiagbe/brainbook">
-                      View Code
-                    </a>
-                  </div>
-                </div>
-                <div className="project-details">
-                  <h2>Brainbook (Dictionary app)</h2>
-                  <p>HTML CSS Javascript</p>
-                </div>
-                <div className="view">
-                  <a href="https://brainbook.vercel.app/">View website</a>
-                  <a href="https://github.com/sammyodiagbe/brainbook">
-                    View Code
-                  </a>
-                </div>
-              </div>
-              <div className="project">
-                <div className="img-container">
-                  <img src={img14} alt="First project" />
-                  <div className="view">
-                    <a href="https://brainbook.vercel.app/">View website</a>
-                    <a href="https://github.com/sammyodiagbe/brainbook">
-                      View Code
-                    </a>
-                  </div>
-                </div>
-                <div className="project-details">
-                  <h2>Project Feedback</h2>
-                  <p>HTML CSS</p>
-                </div>
-                <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
-                </div>
-              </div>
-              <div className="project">
-                <div className="img-container">
-                  <img src={img15} alt="First project" />
-                  <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
-                  </div>
-                </div>
-                <div className="project-details">
-                  <h2>Project Feedback</h2>
-                  <p>HTML CSS Javascript</p>
-                </div>
-                <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
-                </div>
-              </div>
+
               <div className="project">
                 <div className="img-container">
                   <img src={img16} alt="First project" />
                   <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
+                    <a href="https://multi-step-form-nu.vercel.app/">
+                      View website
+                    </a>
+                    <a href="https://github.com/sammyodiagbe/multi_step_form">
+                      View Code
+                    </a>
                   </div>
                 </div>
                 <div className="project-details">
@@ -427,38 +365,101 @@ function App() {
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://multi-step-form-nu.vercel.app/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/multi_step_form">
+                    View Code
+                  </a>
                 </div>
               </div>
               <div className="project">
                 <div className="img-container">
                   <img src={img17} alt="First project" />
                   <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
+                    <a href="https://suite-landing-6uw4ujfr4-sammyodiagbe.vercel.app/">
+                      View website
+                    </a>
+                    <a href="https://github.com/sammyodiagbe/suite_landing">
+                      View Code
+                    </a>
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Dictionary App</h2>
+                  <h2>Suite Landing Page</h2>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://suite-landing-6uw4ujfr4-sammyodiagbe.vercel.app/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/suite_landing">
+                    View Code
+                  </a>
                 </div>
               </div>
               <div className="project">
                 <div className="img-container">
                   <img src={img18} alt="First project" />
                   <div className="view">
+                    <a href="https://order-summary-component-cddosuomw-sammyodiagbe.vercel.app/">
+                      View website
+                    </a>
+                    <a href="https://github.com/sammyodiagbe/order-summary-component">
+                      View Code
+                    </a>
+                  </div>
+                </div>
+                <div className="project-details">
+                  <h2>Order Summary Component</h2>
+                  <p>HTML CSS</p>
+                </div>
+                <div className="view">
+                  <a href="https://order-summary-component-cddosuomw-sammyodiagbe.vercel.app/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/order-summary-component">
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              <div className="project">
+                <div className="img-container">
+                  <img src={img10} alt="First project" />
+                  <div className="view">
+                    <a href="https://sammyodiagbe.github.io/interactive-pricing-component/">
+                      View website
+                    </a>
+                    <a href="https://github.com/sammyodiagbe/interactive-pricing-component">
+                      View Code
+                    </a>
+                  </div>
+                </div>
+                <div className="project-details">
+                  <h2>Interactive Price Component</h2>
+                  <p>HTML CSS</p>
+                </div>
+                <div className="view">
+                  <a href="https://sammyodiagbe.github.io/interactive-pricing-component/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/interactive-pricing-component">
+                    View Code
+                  </a>
+                </div>
+              </div>
+              <div className="project">
+                <div className="img-container">
+                  <img src={img11} alt="First project" />
+                  <div className="view">
                     <a href="#view-website">View website</a>
                     <a href="#view-code">View Code</a>
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Suite Landing Page</h2>
-                  <p>HTML CSS</p>
+                  <h2>Tip Calculator</h2>
+                  <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
                   <a href="#view-website">View website</a>
