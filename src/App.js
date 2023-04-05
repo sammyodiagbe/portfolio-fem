@@ -22,16 +22,40 @@ import img18 from "./assets/order-summary.webp";
 import img19 from "./assets/img19.webp";
 import { useState } from "react";
 import { useRef } from "react";
+import { validateData } from "./utils";
+import emailjs from "@emailjs/browser";
 
 function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
+  const [errors, setErrors] = useState({});
   const formRef = useRef();
+  const [sendingMessage, setSendingMessage] = useState(false);
+  const [messageSent, setMessageSent] = useState(false);
 
-  const sendEmail = (event) => {
+  const sendEmail = async (event) => {
     event.preventDefault();
+
+    const data = validateData({ name, email, message });
+    const errors = Object.entries(validateData).length;
+    if (errors > 0) {
+      setErrors(data);
+      return;
+    }
+
+    // no error was found and data is valid send the email
+    try {
+      await emailjs.sendForm(
+        "service_g9zwgfk",
+        "template_xnnnbep",
+        formRef.current,
+        "0N4qbFxrD0vkKzOoY"
+      );
+      setErrors({});
+    } catch (error) {
+      console.log(error);
+    }
   };
   return (
     <div className="portfolio-app">
