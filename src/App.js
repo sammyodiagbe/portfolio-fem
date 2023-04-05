@@ -109,10 +109,16 @@ function App() {
                 <div className="img-container">
                   <img src={image1} alt="First project" />
                   <div className="view">
-                    <a href="https://single-page-design-portfolio-one.vercel.app/">
+                    <a
+                      href="https://single-page-design-portfolio-one.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/single-page-design-portfolio">
+                    <a
+                      href="https://github.com/sammyodiagbe/single-page-design-portfolio"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -122,10 +128,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://single-page-design-portfolio-one.vercel.app/">
+                  <a
+                    href="https://single-page-design-portfolio-one.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/single-page-design-portfolio">
+                  <a
+                    href="https://github.com/sammyodiagbe/single-page-design-portfolio"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -134,10 +146,16 @@ function App() {
                 <div className="img-container">
                   <img src={img19} alt="First project" />
                   <div className="view">
-                    <a href="https://connect-four-41z45w5yw-sammyodiagbe.vercel.app/">
+                    <a
+                      href="https://connect-four-41z45w5yw-sammyodiagbe.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/connect-four">
+                    <a
+                      href="https://github.com/sammyodiagbe/connect-four"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -147,10 +165,16 @@ function App() {
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="https://connect-four-41z45w5yw-sammyodiagbe.vercel.app/">
+                  <a
+                    href="https://connect-four-41z45w5yw-sammyodiagbe.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/connect-four">
+                  <a
+                    href="https://github.com/sammyodiagbe/connect-four"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -159,10 +183,16 @@ function App() {
                 <div className="img-container">
                   <img src={image2} alt="First project" />
                   <div className="view">
-                    <a href="https://skilled-elearning-landng-page.vercel.app/">
+                    <a
+                      href="https://skilled-elearning-landng-page.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/skilled-elearning-landng-page">
+                    <a
+                      href="https://github.com/sammyodiagbe/skilled-elearning-landng-page"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -172,10 +202,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://skilled-elearning-landng-page.vercel.app/">
+                  <a
+                    href="https://skilled-elearning-landng-page.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/skilled-elearning-landng-page">
+                  <a
+                    href="https://github.com/sammyodiagbe/skilled-elearning-landng-page"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -184,8 +220,13 @@ function App() {
                 <div className="img-container">
                   <img src={img15} alt="First project" />
                   <div className="view">
-                    <a href="https://feedbakiie.vercel.app/">View website</a>
-                    <a href="https://github.com/sammyodiagbe/product_feedback_app">
+                    <a href="https://feedbakiie.vercel.app/" target="_black">
+                      View website
+                    </a>
+                    <a
+                      href="https://github.com/sammyodiagbe/product_feedback_app"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -195,8 +236,13 @@ function App() {
                   <p>React Sass Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="https://feedbakiie.vercel.app/">View website</a>
-                  <a href="https://github.com/sammyodiagbe/product_feedback_app">
+                  <a href="https://feedbakiie.vercel.app/" target="_black">
+                    View website
+                  </a>
+                  <a
+                    href="https://github.com/sammyodiagbe/product_feedback_app"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -205,10 +251,16 @@ function App() {
                 <div className="img-container">
                   <img src={image4} alt="First project" />
                   <div className="view">
-                    <a href="https://entertainment-web-app-rho.vercel.app/">
+                    <a
+                      href="https://entertainment-web-app-rho.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/entertainment_web_app">
+                    <a
+                      href="https://github.com/sammyodiagbe/entertainment_web_app"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -218,10 +270,16 @@ function App() {
                   <p>HTML CSS JAVASCRIPT</p>
                 </div>
                 <div className="view">
-                  <a href="https://entertainment-web-app-rho.vercel.app/">
+                  <a
+                    href="https://entertainment-web-app-rho.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/entertainment_web_app">
+                  <a
+                    href="https://github.com/sammyodiagbe/entertainment_web_app"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -230,10 +288,16 @@ function App() {
                 <div className="img-container">
                   <img src={image5} alt="First project" />
                   <div className="view">
-                    <a href="https://tic-tac-r0lyvrfef-sammyodiagbe.vercel.app/">
+                    <a
+                      href="https://tic-tac-r0lyvrfef-sammyodiagbe.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/tic-tac-toe">
+                    <a
+                      href="https://github.com/sammyodiagbe/tic-tac-toe"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -243,10 +307,16 @@ function App() {
                   <p>React Sass</p>
                 </div>
                 <div className="view">
-                  <a href="https://tic-tac-r0lyvrfef-sammyodiagbe.vercel.app/">
+                  <a
+                    href="https://tic-tac-r0lyvrfef-sammyodiagbe.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/tic-tac-toe">
+                  <a
+                    href="https://github.com/sammyodiagbe/tic-tac-toe"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -255,10 +325,16 @@ function App() {
                 <div className="img-container">
                   <img src={image6} alt="First project" />
                   <div className="view">
-                    <a href="https://news-homepage-teal-tau.vercel.app/">
+                    <a
+                      href="https://news-homepage-teal-tau.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/news-homepage">
+                    <a
+                      href="https://github.com/sammyodiagbe/news-homepage"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -268,10 +344,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://news-homepage-teal-tau.vercel.app/">
+                  <a
+                    href="https://news-homepage-teal-tau.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/news-homepage">
+                  <a
+                    href="https://github.com/sammyodiagbe/news-homepage"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -280,8 +362,13 @@ function App() {
                 <div className="img-container">
                   <img src={img13} alt="First project" />
                   <div className="view">
-                    <a href="https://brainbook.vercel.app/">View website</a>
-                    <a href="https://github.com/sammyodiagbe/brainbook">
+                    <a href="https://brainbook.vercel.app/" target="_black">
+                      View website
+                    </a>
+                    <a
+                      href="https://github.com/sammyodiagbe/brainbook"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -291,8 +378,13 @@ function App() {
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="https://brainbook.vercel.app/">View website</a>
-                  <a href="https://github.com/sammyodiagbe/brainbook">
+                  <a href="https://brainbook.vercel.app/" target="_black">
+                    View website
+                  </a>
+                  <a
+                    href="https://github.com/sammyodiagbe/brainbook"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -301,10 +393,16 @@ function App() {
                 <div className="img-container">
                   <img src={img9} alt="First project" />
                   <div className="view">
-                    <a href="https://sammyodiagbe.github.io/Loopstudios-landing-page/">
+                    <a
+                      href="https://sammyodiagbe.github.io/Loopstudios-landing-page/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/Loopstudios-landing-page">
+                    <a
+                      href="https://github.com/sammyodiagbe/Loopstudios-landing-page"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -314,10 +412,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://sammyodiagbe.github.io/Loopstudios-landing-page/">
+                  <a
+                    href="https://sammyodiagbe.github.io/Loopstudios-landing-page/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/Loopstudios-landing-page">
+                  <a
+                    href="https://github.com/sammyodiagbe/Loopstudios-landing-page"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -326,10 +430,16 @@ function App() {
                 <div className="img-container">
                   <img src={img12} alt="First project" />
                   <div className="view">
-                    <a href="https://sammyodiagbe.github.io/responsive-bookmark/">
+                    <a
+                      href="https://sammyodiagbe.github.io/responsive-bookmark/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/responsive-bookmark">
+                    <a
+                      href="https://github.com/sammyodiagbe/responsive-bookmark"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -339,10 +449,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://sammyodiagbe.github.io/responsive-bookmark/">
+                  <a
+                    href="https://sammyodiagbe.github.io/responsive-bookmark/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/responsive-bookmark">
+                  <a
+                    href="https://github.com/sammyodiagbe/responsive-bookmark"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -352,10 +468,16 @@ function App() {
                 <div className="img-container">
                   <img src={img16} alt="First project" />
                   <div className="view">
-                    <a href="https://multi-step-form-nu.vercel.app/">
+                    <a
+                      href="https://multi-step-form-nu.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/multi_step_form">
+                    <a
+                      href="https://github.com/sammyodiagbe/multi_step_form"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -365,10 +487,16 @@ function App() {
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="https://multi-step-form-nu.vercel.app/">
+                  <a
+                    href="https://multi-step-form-nu.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/multi_step_form">
+                  <a
+                    href="https://github.com/sammyodiagbe/multi_step_form"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -377,10 +505,16 @@ function App() {
                 <div className="img-container">
                   <img src={img17} alt="First project" />
                   <div className="view">
-                    <a href="https://suite-landing-6uw4ujfr4-sammyodiagbe.vercel.app/">
+                    <a
+                      href="https://suite-landing-6uw4ujfr4-sammyodiagbe.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/suite_landing">
+                    <a
+                      href="https://github.com/sammyodiagbe/suite_landing"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -390,10 +524,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://suite-landing-6uw4ujfr4-sammyodiagbe.vercel.app/">
+                  <a
+                    href="https://suite-landing-6uw4ujfr4-sammyodiagbe.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/suite_landing">
+                  <a
+                    href="https://github.com/sammyodiagbe/suite_landing"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -402,10 +542,16 @@ function App() {
                 <div className="img-container">
                   <img src={img18} alt="First project" />
                   <div className="view">
-                    <a href="https://order-summary-component-cddosuomw-sammyodiagbe.vercel.app/">
+                    <a
+                      href="https://order-summary-component-cddosuomw-sammyodiagbe.vercel.app/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/order-summary-component">
+                    <a
+                      href="https://github.com/sammyodiagbe/order-summary-component"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -415,10 +561,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://order-summary-component-cddosuomw-sammyodiagbe.vercel.app/">
+                  <a
+                    href="https://order-summary-component-cddosuomw-sammyodiagbe.vercel.app/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/order-summary-component">
+                  <a
+                    href="https://github.com/sammyodiagbe/order-summary-component"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -428,10 +580,16 @@ function App() {
                 <div className="img-container">
                   <img src={img10} alt="First project" />
                   <div className="view">
-                    <a href="https://sammyodiagbe.github.io/interactive-pricing-component/">
+                    <a
+                      href="https://sammyodiagbe.github.io/interactive-pricing-component/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/interactive-pricing-component">
+                    <a
+                      href="https://github.com/sammyodiagbe/interactive-pricing-component"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -441,10 +599,16 @@ function App() {
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
-                  <a href="https://sammyodiagbe.github.io/interactive-pricing-component/">
+                  <a
+                    href="https://sammyodiagbe.github.io/interactive-pricing-component/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/interactive-pricing-component">
+                  <a
+                    href="https://github.com/sammyodiagbe/interactive-pricing-component"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -453,10 +617,16 @@ function App() {
                 <div className="img-container">
                   <img src={img11} alt="First project" />
                   <div className="view">
-                    <a href="https://sammyodiagbe.github.io/tip-calculator/">
+                    <a
+                      href="https://sammyodiagbe.github.io/tip-calculator/"
+                      target="_black"
+                    >
                       View website
                     </a>
-                    <a href="https://github.com/sammyodiagbe/tip-calculator">
+                    <a
+                      href="https://github.com/sammyodiagbe/tip-calculator"
+                      target="_black"
+                    >
                       View Code
                     </a>
                   </div>
@@ -466,10 +636,16 @@ function App() {
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="https://sammyodiagbe.github.io/tip-calculator/">
+                  <a
+                    href="https://sammyodiagbe.github.io/tip-calculator/"
+                    target="_black"
+                  >
                     View website
                   </a>
-                  <a href="https://github.com/sammyodiagbe/tip-calculator">
+                  <a
+                    href="https://github.com/sammyodiagbe/tip-calculator"
+                    target="_black"
+                  >
                     View Code
                   </a>
                 </div>
@@ -506,16 +682,16 @@ function App() {
           <footer className="footer">
             <b className="logo">SamsonOdiagbe</b>
             <aside className="social-links">
-              <a href="#kkk">
+              <a href="https://github.com/sammyodiagbe" target="_blank">
                 <Github />
               </a>
-              <a href="#ll">
+              <a href="https://www.frontendmentor.io/profile/sammyodiagbe">
                 <FrontendMentor />
               </a>
-              <a href="#ud">
+              <a href="https://www.linkedin.com/in/sam-odiagbe-70053b239/">
                 <LinkedIn />
               </a>
-              <a href="#link">
+              <a href="https://twitter.com/samthedevguy">
                 <Twitter />
               </a>
             </aside>
