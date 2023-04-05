@@ -188,10 +188,17 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
   text-transform: uppercase;
   font-size: 0.9em;
   background: #3772ff;
+  background: transparent;
+  text-decoration: underline;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a:hover {
   color: #0037b8;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.view a:hover {
+  color: #fff;
+  font-weight: bold;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a:nth-child(1) {
@@ -302,10 +309,6 @@ div.portfolio-app div.container div.contact-me section.form-container form div.b
 
 div.portfolio-app div.container footer.footer {
   background: #242424;
-  position: -webkit-sticky;
-  position: sticky;
-  left: 0;
-  bottom: 0;
 }
 
 @media screen and (min-width: 760px) {
