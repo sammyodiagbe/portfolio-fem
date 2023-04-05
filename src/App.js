@@ -34,6 +34,7 @@ function App() {
 
   const sendEmail = async (event) => {
     event.preventDefault();
+    if (sendingMessage) return;
 
     const data = validateData({ name, email, message });
     const errors = Object.entries(data).length;
