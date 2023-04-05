@@ -256,6 +256,9 @@ div.portfolio-app {
     }
     footer.footer {
       background: $light-dark;
+      position: sticky;
+      left: 0;
+      bottom: 0;
     }
   }
 }

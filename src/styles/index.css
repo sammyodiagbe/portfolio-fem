@@ -284,6 +284,10 @@ div.portfolio-app div.container div.contact-me section.form-container form div.b
 
 div.portfolio-app div.container footer.footer {
   background: #242424;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  bottom: 0;
 }
 
 @media screen and (min-width: 760px) {
