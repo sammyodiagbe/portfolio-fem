@@ -184,7 +184,7 @@ div.portfolio-app {
           div.view {
             a {
               @include linkBtn();
-              background: transparent;
+              background: transparent !important;
               text-decoration: underline;
 
               &:hover {

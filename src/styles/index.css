@@ -196,7 +196,7 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
   font-size: 0.9em;
   background: #3772ff;
   border-radius: 10px;
-  background: transparent;
+  background: transparent !important;
   text-decoration: underline;
 }
 
