@@ -46,6 +46,7 @@ function App() {
 
     // no error was found and data is valid send the email
     try {
+      setSendingMessage(true);
       await emailjs.sendForm(
         "service_g9zwgfk",
         "template_xnnnbep",
@@ -53,6 +54,10 @@ function App() {
         "0N4qbFxrD0vkKzOoY"
       );
       setErrors({});
+      setSendingMessage(false);
+      setMessageSent(true);
+
+      setTimeout(() => setMessageSent(false), 300);
     } catch (error) {
       console.log(error);
     }
