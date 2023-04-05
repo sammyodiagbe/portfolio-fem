@@ -28,16 +28,16 @@ function App() {
         <nav className="navigation">
           <b className="logo">SamsonOdiagbe</b>
           <aside className="social-links">
-            <a href="#kkk">
+            <a href="https://github.com/sammyodiagbe" target="_blank">
               <Github />
             </a>
-            <a href="#ll">
+            <a href="https://www.frontendmentor.io/profile/sammyodiagbe">
               <FrontendMentor />
             </a>
-            <a href="#ud">
+            <a href="https://www.linkedin.com/in/sam-odiagbe-70053b239/">
               <LinkedIn />
             </a>
-            <a href="#link">
+            <a href="https://twitter.com/samthedevguy">
               <Twitter />
             </a>
           </aside>
