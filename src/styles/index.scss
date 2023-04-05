@@ -259,7 +259,17 @@ div.portfolio-app {
                 color: $white;
                 cursor: pointer;
                 border-radius: 10px;
+                transition: all 0.8s;
+                &.sending-message {
+                  opacity: 0.5;
+                  background: #fffbbd !important;
+                  color: #222;
+                }
 
+                &.message-sent {
+                  background: #57a773 !important;
+                  color: #fff;
+                }
                 &:hover {
                   background: #0037b8;
                 }

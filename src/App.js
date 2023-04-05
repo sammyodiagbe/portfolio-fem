@@ -36,7 +36,8 @@ function App() {
     event.preventDefault();
 
     const data = validateData({ name, email, message });
-    const errors = Object.entries(validateData).length;
+    const errors = Object.entries(data).length;
+
     if (errors > 0) {
       setErrors(data);
       return;
@@ -55,7 +56,7 @@ function App() {
       setSendingMessage(false);
       setMessageSent(true);
 
-      setTimeout(() => setMessageSent(false), 300);
+      setTimeout(() => setMessageSent(false), 1500);
     } catch (error) {
       console.log(error);
     }
@@ -739,7 +740,11 @@ function App() {
                     disabled={sendingMessage || messageSent}
                   >
                     {" "}
-                    Send Message
+                    {sendingMessage
+                      ? "Sending Message"
+                      : messageSent
+                      ? "Message has been sent"
+                      : "Send message"}
                   </button>
                 </div>
               </form>

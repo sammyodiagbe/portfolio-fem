@@ -274,6 +274,19 @@ div.portfolio-app div.container div.contact-me section.form-container form div.b
   color: #ffffff;
   cursor: pointer;
   border-radius: 10px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit.sending-message {
+  opacity: 0.5;
+  background: #fffbbd !important;
+  color: #222;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit.message-sent {
+  background: #57a773 !important;
+  color: #fff;
 }
 
 div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit:hover {
