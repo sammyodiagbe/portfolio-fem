@@ -346,18 +346,15 @@ div.portfolio-app div.container footer.footer {
   div.portfolio-app div.container div.introduction {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "writeup img";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   div.portfolio-app div.container div.introduction section {
     padding: 1em 0;
   }
   div.portfolio-app div.container div.introduction section.write-up {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: writeup;
     width: 550px;
+    margin: 0 auto;
     z-index: 10;
     margin-top: 5em;
     -ms-grid-row: 1;
@@ -372,8 +369,6 @@ div.portfolio-app div.container footer.footer {
     border-bottom: 3px solid #92a9db;
   }
   div.portfolio-app div.container div.introduction section.image-container {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
     grid-area: img;
     min-height: 612px;
   }
@@ -432,12 +427,19 @@ div.portfolio-app div.container footer.footer {
     width: 900px;
     margin: 0 auto;
   }
+  div.portfolio-app div.container div.introduction section.write-up {
+    width: 650px;
+    text-align: center;
+  }
   div.portfolio-app div.container div.introduction section.write-up h1 {
     font-size: 51px;
   }
   div.portfolio-app div.container div.skills-container {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  div.portfolio-app div.container div.skills-container div.skill {
+    text-align: center;
   }
   div.portfolio-app div.container div.projects-container div.projects {
     display: -ms-grid;
