@@ -453,8 +453,12 @@ function App() {
                 <div className="img-container">
                   <img src={img11} alt="First project" />
                   <div className="view">
-                    <a href="#view-website">View website</a>
-                    <a href="#view-code">View Code</a>
+                    <a href="https://sammyodiagbe.github.io/tip-calculator/">
+                      View website
+                    </a>
+                    <a href="https://github.com/sammyodiagbe/tip-calculator">
+                      View Code
+                    </a>
                   </div>
                 </div>
                 <div className="project-details">
@@ -462,8 +466,12 @@ function App() {
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
-                  <a href="#view-website">View website</a>
-                  <a href="#view-code">View Code</a>
+                  <a href="https://sammyodiagbe.github.io/tip-calculator/">
+                    View website
+                  </a>
+                  <a href="https://github.com/sammyodiagbe/tip-calculator">
+                    View Code
+                  </a>
                 </div>
               </div>
             </div>
