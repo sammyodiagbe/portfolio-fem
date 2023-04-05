@@ -20,8 +20,16 @@ import img16 from "./assets/img17.webp";
 import img17 from "./assets/img15.webp";
 import img18 from "./assets/order-summary.webp";
 import img19 from "./assets/img19.webp";
+import { useState } from "react";
 
 function App() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const sendEmail = (event) => {
+    event.preventDefault();
+  };
   return (
     <div className="portfolio-app">
       <div className="container">
@@ -663,15 +671,27 @@ function App() {
             </section>
             <section className="form-container">
               <h3>Send me a message.</h3>
-              <form>
+              <form onSubmit={sendEmail}>
                 <div className="input-container">
-                  <input type="text" placeholder="Name" />
+                  <input
+                    type="text"
+                    placeholder="Your name here.."
+                    onChange={({ target }) => setName(target.value)}
+                  />
                 </div>
                 <div className="input-container">
-                  <input type="email" placeholder="Email" />
+                  <input
+                    type="email"
+                    placeholder="Your email here"
+                    onChange={({ target }) => setEmail(target.value)}
+                  />
                 </div>
                 <div className="input-container">
-                  <textarea placeholder="Message"></textarea>
+                  <textarea
+                    placeholder="Your message here"
+                    value={message}
+                    onChange={({ target }) => setMessage(target.value)}
+                  ></textarea>
                 </div>
                 <div className="btn-container">
                   <button className="btn-submit">Send Message</button>
