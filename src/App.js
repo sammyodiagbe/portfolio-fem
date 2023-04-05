@@ -706,7 +706,7 @@ function App() {
                   <input
                     type="text"
                     placeholder="Your name here.."
-                    style={`${errors.name ? "input-error" : ""}`}
+                    className={`${errors.name ? "input-error" : ""}`}
                     value={name}
                     onChange={({ target }) => setName(target.value)}
                   />
@@ -715,7 +715,7 @@ function App() {
                   <input
                     type="email"
                     placeholder="Your email here"
-                    style={`${errors.email ? "input-error" : ""}`}
+                    className={`${errors.email ? "input-error" : ""}`}
                     value={email}
                     onChange={({ target }) => setEmail(target.value)}
                   />
@@ -724,7 +724,7 @@ function App() {
                   <textarea
                     placeholder="Your message here"
                     value={message}
-                    style={`${errors.message ? "input-error" : ""}`}
+                    className={`${errors.message ? "input-error" : ""}`}
                     onChange={({ target }) => setMessage(target.value)}
                   ></textarea>
                 </div>
