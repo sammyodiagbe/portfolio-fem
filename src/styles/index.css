@@ -97,6 +97,8 @@ div.portfolio-app div.container div.introduction section.write-up a {
   font-size: 0.9em;
   background: #3772ff;
   border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   padding: 0.9em 1.8em;
 }
 
@@ -154,6 +156,8 @@ div.portfolio-app div.container div.projects-container div.project-container-hea
   font-size: 0.9em;
   background: #3772ff;
   border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 div.portfolio-app div.container div.projects-container div.project-container-head a:hover {
@@ -196,6 +200,8 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
   font-size: 0.9em;
   background: #3772ff;
   border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background: transparent !important;
   text-decoration: underline;
 }

@@ -17,6 +17,7 @@ $call-to-action-hover: #0037b8;
   font-size: 0.9em;
   background: $call-to-action;
   border-radius: 10px;
+  transition: all 0.5s;
   &:hover {
     color: $white;
     background: $call-to-action-hover;
