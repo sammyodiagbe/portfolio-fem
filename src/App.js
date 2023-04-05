@@ -124,7 +124,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Single Page Design Portfolio</h2>
+                  <h3>Single Page Design Portfolio</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -161,7 +161,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Connect Four Javascript</h2>
+                  <h3>Connect Four Javascript</h3>
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
@@ -198,7 +198,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Skilled E-Learning Landing page</h2>
+                  <h3>Skilled E-Learning Landing page</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -232,7 +232,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Feedback App</h2>
+                  <h3>Feedback App</h3>
                   <p>React Sass Javascript</p>
                 </div>
                 <div className="view">
@@ -266,7 +266,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Entertainment Web App</h2>
+                  <h3>Entertainment Web App</h3>
                   <p>HTML CSS JAVASCRIPT</p>
                 </div>
                 <div className="view">
@@ -303,7 +303,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Tic Tac Toe</h2>
+                  <h3>Tic Tac Toe</h3>
                   <p>React Sass</p>
                 </div>
                 <div className="view">
@@ -340,7 +340,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>News HomePage</h2>
+                  <h3>News HomePage</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -374,7 +374,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Brainbook (Dictionary app)</h2>
+                  <h3>Brainbook (Dictionary app)</h3>
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
@@ -408,7 +408,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Loop Studio</h2>
+                  <h3>Loop Studio</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -445,7 +445,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Bookmark Landing Page</h2>
+                  <h3>Bookmark Landing Page</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -483,7 +483,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Multi Step Form</h2>
+                  <h3>Multi Step Form</h3>
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
@@ -520,7 +520,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Suite Landing Page</h2>
+                  <h3>Suite Landing Page</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -557,7 +557,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Order Summary Component</h2>
+                  <h3>Order Summary Component</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -595,7 +595,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Interactive Price Component</h2>
+                  <h3>Interactive Price Component</h3>
                   <p>HTML CSS</p>
                 </div>
                 <div className="view">
@@ -632,7 +632,7 @@ function App() {
                   </div>
                 </div>
                 <div className="project-details">
-                  <h2>Tip Calculator</h2>
+                  <h3>Tip Calculator</h3>
                   <p>HTML CSS Javascript</p>
                 </div>
                 <div className="view">
