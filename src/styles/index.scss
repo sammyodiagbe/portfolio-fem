@@ -1,22 +1,23 @@
 // variables
 $background-color: #151515;
-$secondary-color: #3474fd;
+$secondary-color: #92a9db;
 $light-dark: #242424;
 $grey: #d9d9d9;
 $white: #ffffff;
 $padding: 1em;
+$call-to-action: #3772ff;
+$call-to-action-hover: #0037b8;
 
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
 
 @mixin linkBtn {
   padding: 0.7em $padding;
   display: inline-block;
-  border-bottom: 2px solid $secondary-color;
   text-transform: uppercase;
   font-size: 0.9em;
-
+  background: $call-to-action;
   &:hover {
-    color: $secondary-color;
+    color: $call-to-action-hover;
   }
 }
 * {
@@ -42,12 +43,7 @@ textarea {
   background-color: transparent;
   font-size: 1em;
   padding: $padding;
-  border: none;
-  border-bottom: 2px solid $grey;
   border-radius: 0px;
-  &::placeholder {
-    text-transform: uppercase;
-  }
 }
 
 a {
@@ -212,6 +208,7 @@ div.portfolio-app {
         padding: $padding 0;
         &.writeup-container {
           text-align: center;
+
           h1 {
             margin-bottom: 1.5em;
           }
@@ -221,6 +218,9 @@ div.portfolio-app {
         }
 
         &.form-container {
+          h3 {
+            padding-bottom: 10px;
+          }
           form {
             div.input-container,
             div.btn-container {
@@ -232,6 +232,12 @@ div.portfolio-app {
                 width: 100%;
                 resize: none;
                 color: $white;
+                background: #1b2021;
+                font-size: 0.9em;
+
+                &.input-error {
+                  border: 2px solid #d1345b;
+                }
                 &:active,
                 &:focus {
                   border-bottom: 2px solid $secondary-color;
@@ -247,12 +253,16 @@ div.portfolio-app {
               text-align: right;
               button.btn-submit {
                 display: inline-block;
-                text-transform: uppercase;
-                border-bottom: 1px solid $secondary-color;
-                background: transparent;
+                background: #3772ff;
                 padding: $padding;
                 font-size: 0.9em;
                 color: $white;
+                cursor: pointer;
+                border-radius: 10px;
+
+                &:hover {
+                  background: #0037b8;
+                }
               }
             }
           }

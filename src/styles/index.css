@@ -23,29 +23,7 @@ textarea {
   background-color: transparent;
   font-size: 1em;
   padding: 1em;
-  border: none;
-  border-bottom: 2px solid #d9d9d9;
   border-radius: 0px;
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  text-transform: uppercase;
-}
-
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  text-transform: uppercase;
-}
-
-input::-ms-input-placeholder,
-textarea::-ms-input-placeholder {
-  text-transform: uppercase;
-}
-
-input::placeholder,
-textarea::placeholder {
-  text-transform: uppercase;
 }
 
 a {
@@ -101,7 +79,7 @@ div.portfolio-app div.container div.introduction section.write-up h1 {
 
 div.portfolio-app div.container div.introduction section.write-up h1 span.stand-out {
   padding: 0.2em 0;
-  border-bottom: 3px solid #3474fd;
+  border-bottom: 3px solid #92a9db;
 }
 
 div.portfolio-app div.container div.introduction section.write-up p {
@@ -111,14 +89,14 @@ div.portfolio-app div.container div.introduction section.write-up p {
 div.portfolio-app div.container div.introduction section.write-up a {
   padding: 0.7em 1em;
   display: inline-block;
-  border-bottom: 2px solid #3474fd;
   text-transform: uppercase;
   font-size: 0.9em;
+  background: #3772ff;
   padding: 1em 1.8em;
 }
 
 div.portfolio-app div.container div.introduction section.write-up a:hover {
-  color: #3474fd;
+  color: #0037b8;
 }
 
 div.portfolio-app div.container div.introduction section.image-container img {
@@ -167,13 +145,13 @@ div.portfolio-app div.container div.projects-container div.project-container-hea
 div.portfolio-app div.container div.projects-container div.project-container-head a {
   padding: 0.7em 1em;
   display: inline-block;
-  border-bottom: 2px solid #3474fd;
   text-transform: uppercase;
   font-size: 0.9em;
+  background: #3772ff;
 }
 
 div.portfolio-app div.container div.projects-container div.project-container-head a:hover {
-  color: #3474fd;
+  color: #0037b8;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project {
@@ -200,13 +178,13 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a {
   padding: 0.7em 1em;
   display: inline-block;
-  border-bottom: 2px solid #3474fd;
   text-transform: uppercase;
   font-size: 0.9em;
+  background: #3772ff;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a:hover {
-  color: #3474fd;
+  color: #0037b8;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a:nth-child(1) {
@@ -250,6 +228,10 @@ div.portfolio-app div.container div.contact-me section.writeup-container h1 {
   margin-bottom: 1.5em;
 }
 
+div.portfolio-app div.container div.contact-me section.form-container h3 {
+  padding-bottom: 10px;
+}
+
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container,
 div.portfolio-app div.container div.contact-me section.form-container form div.btn-container {
   margin-bottom: 1em;
@@ -260,12 +242,19 @@ div.portfolio-app div.container div.contact-me section.form-container form div.i
   width: 100%;
   resize: none;
   color: #ffffff;
+  background: #1b2021;
+  font-size: 0.9em;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container input.input-error,
+div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea.input-error {
+  border: 2px solid #d1345b;
 }
 
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:active, div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:focus,
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:active,
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container textarea:focus {
-  border-bottom: 2px solid #3474fd;
+  border-bottom: 2px solid #92a9db;
 }
 
 div.portfolio-app div.container div.contact-me section.form-container form div.input-container input:invalid,
@@ -279,12 +268,16 @@ div.portfolio-app div.container div.contact-me section.form-container form div.b
 
 div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit {
   display: inline-block;
-  text-transform: uppercase;
-  border-bottom: 1px solid #3474fd;
-  background: transparent;
+  background: #3772ff;
   padding: 1em;
   font-size: 0.9em;
   color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+div.portfolio-app div.container div.contact-me section.form-container form div.btn-container button.btn-submit:hover {
+  background: #0037b8;
 }
 
 div.portfolio-app div.container footer.footer {
@@ -338,7 +331,7 @@ div.portfolio-app div.container footer.footer {
   }
   div.portfolio-app div.container div.introduction section.write-up h1 span.stand-out {
     padding: 0.2em 0;
-    border-bottom: 3px solid #3474fd;
+    border-bottom: 3px solid #92a9db;
   }
   div.portfolio-app div.container div.introduction section.image-container {
     -ms-grid-row: 1;
