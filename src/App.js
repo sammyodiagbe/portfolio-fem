@@ -21,11 +21,14 @@ import img17 from "./assets/img15.webp";
 import img18 from "./assets/order-summary.webp";
 import img19 from "./assets/img19.webp";
 import { useState } from "react";
+import { useRef } from "react";
 
 function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const formRef = useRef();
 
   const sendEmail = (event) => {
     event.preventDefault();
@@ -671,11 +674,12 @@ function App() {
             </section>
             <section className="form-container">
               <h3>Send me a message.</h3>
-              <form onSubmit={sendEmail}>
+              <form onSubmit={sendEmail} ref={formRef}>
                 <div className="input-container">
                   <input
                     type="text"
                     placeholder="Your name here.."
+                    value={name}
                     onChange={({ target }) => setName(target.value)}
                   />
                 </div>
@@ -683,6 +687,7 @@ function App() {
                   <input
                     type="email"
                     placeholder="Your email here"
+                    value={email}
                     onChange={({ target }) => setEmail(target.value)}
                   />
                 </div>
