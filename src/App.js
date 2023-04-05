@@ -56,6 +56,9 @@ function App() {
       setErrors({});
       setSendingMessage(false);
       setMessageSent(true);
+      setName("");
+      setEmail("");
+      setMessage("");
 
       setTimeout(() => setMessageSent(false), 1500);
     } catch (error) {

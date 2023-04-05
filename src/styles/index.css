@@ -172,7 +172,14 @@ div.portfolio-app div.container div.projects-container div.projects div.project 
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.img-container div.view a {
   font-size: 0.8em;
+  background: transparent;
   padding: 1em 0.6em;
+}
+
+div.portfolio-app div.container div.projects-container div.projects div.project div.img-container div.view a:hover {
+  background: transparent;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 div.portfolio-app div.container div.projects-container div.projects div.project div.view a {

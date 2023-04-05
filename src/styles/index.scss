@@ -169,6 +169,12 @@ div.portfolio-app {
 
               a {
                 font-size: 0.8em;
+                background: transparent;
+                &:hover {
+                  background: transparent;
+                  font-weight: bold;
+                  color: $white;
+                }
                 padding: $padding 0.6em;
               }
             }
