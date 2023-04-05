@@ -122,11 +122,10 @@ div.portfolio-app {
       grid-template-columns: 1fr 1fr;
       justify-items: center;
       div.skill {
-        text-align: center;
         padding: $padding 0;
         h1,
         p {
-          text-transform: uppercase;
+          text-transform: capitalize;
         }
 
         h1 {

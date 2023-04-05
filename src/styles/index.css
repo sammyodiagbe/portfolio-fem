@@ -116,13 +116,12 @@ div.portfolio-app div.container div.skills-container {
 }
 
 div.portfolio-app div.container div.skills-container div.skill {
-  text-align: center;
   padding: 1em 0;
 }
 
 div.portfolio-app div.container div.skills-container div.skill h1,
 div.portfolio-app div.container div.skills-container div.skill p {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 div.portfolio-app div.container div.skills-container div.skill h1 {

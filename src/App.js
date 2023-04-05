@@ -109,35 +109,35 @@ function App() {
           </div>
           <div className="skills-container">
             <div className="skill">
-              <h1>HTML</h1>
+              <h2>HTML</h2>
               <p>5 years Experience</p>
             </div>
             <div className="skill">
-              <h1>CSS</h1>
+              <h2>CSS</h2>
               <p>5 years Experience</p>
             </div>
             <div className="skill">
-              <h1>Javascript</h1>
+              <h2>Javascript</h2>
               <p>4 years Experience</p>
             </div>
             <div className="skill">
-              <h1>Accesibility</h1>
+              <h2>Accesibility</h2>
               <p>1 years Experience</p>
             </div>
             <div className="skill">
-              <h1>React</h1>
+              <h2>React</h2>
               <p>3 years Experience</p>
             </div>
             <div className="skill">
-              <h1>Sass</h1>
+              <h2>Sass</h2>
               <p>2 years Experience</p>
             </div>
             <div className="skill">
-              <h1>Nodejs</h1>
+              <h2>Nodejs</h2>
               <p>2 years Experience</p>
             </div>
             <div className="skill">
-              <h1>TypeScript</h1>
+              <h2>TypeScript</h2>
               <p>1 years Experience</p>
             </div>
           </div>
