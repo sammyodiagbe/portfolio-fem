@@ -100,7 +100,7 @@ function App() {
                 <span className="stand-out">Samson Odiagbe😎.</span>
               </h1>
               <p>
-                Based in Canada, I’m a full-stack developer passionate about
+                Based in Canada, I’m a frontend developer passionate about
                 building accessible web apps and mobile apps that users love.
               </p>
               <a href="#contact-me">Contact me</a>
