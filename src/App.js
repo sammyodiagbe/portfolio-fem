@@ -7,7 +7,6 @@ import image2 from "./assets/thumbnail-project-2-large.webp";
 import image4 from "./assets/thumbnail-project-4-large.webp";
 import image5 from "./assets/tic-tac-toe.webp";
 import image6 from "./assets/news-homepage.webp";
-import myPicture from "./assets/samson.svg";
 import img9 from "./assets/img9.webp";
 import img10 from "./assets/img10.webp";
 import img11 from "./assets/img11.webp";
@@ -104,6 +103,9 @@ function App() {
                 building accessible web apps and mobile apps that users love.
               </p>
               <a href="#contact-me">Contact me</a>
+              <a href="https://samsonodiagbe.online/src/assets/OdiagbeSamsonResume.pdf">
+                Download Resume
+              </a>
             </section>
             {/* image */}
           </div>
