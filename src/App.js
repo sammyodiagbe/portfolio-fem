@@ -103,7 +103,7 @@ function App() {
                 building accessible web apps and mobile apps that users love.
               </p>
               <a href="#contact-me">Contact me</a>
-              <a href="https://samsonodiagbe.online/src/assets/OdiagbeSamsonResume.pdf">
+              <a href="/OdiagbeSamson.pdf" download className="download-btn">
                 Download Resume
               </a>
             </section>

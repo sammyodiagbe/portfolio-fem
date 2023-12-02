@@ -18,6 +18,14 @@ $call-to-action-hover: #0037b8;
   background: $call-to-action;
   border-radius: 10px;
   transition: all 0.5s;
+  margin-right: 10px;
+  border-radius: 30px;
+  &.download-btn {
+    background: transparent;
+    color: smokewhite;
+    border: 1px solid white;
+    font-weight: 400;
+  }
   &:hover {
     color: $white;
     background: $call-to-action-hover;
